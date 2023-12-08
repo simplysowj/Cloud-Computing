@@ -1,0 +1,77 @@
+Traditional It solutions:
+Physical servers and data centers
+ownership and management
+outages and resiliency
+Human resourcing
+Costs
+Expansion problems
+Cloud computing:
+on demand delivery of It resources over the internet
+consists of both storage and compute
+pay as you go model for resources
+avoid buying and maintaining hardware and infrastructure
+scale automatically as and when needed
+lower operation costs and more efficient operations
+example:netfix
+Advantages:
+cost:eliminates the need to buy hardware (data centers and servers)
+ performance:
+updated hardware and software providing greater efficiency and leveraging economies of scale.
+security:stringent policies and controls that help secure the infrastructure , application of data.
+scale:on demand provisioning of resources when needed during peak times
+speed:
+spinup new resources immediatey with few clicks
+productivity:
+focus on business and dev part of application rather than maintaining it resources.
+Maven:
+for developing big enterprise projects you may need hundrads of jars
+downloading these hundreds of jars from different websites and adding them to classpath is tideous.
+this is where maven comes into picture
+it will download necessary dependencies and will add to classpath
+Maven is sw application build tool
+is used to download.jar files
+it provides standard project structure
+used in compiling building and deploying sw
+helps in generating documentation for source code
+Api plugins:
+the external jars also called API plugin a sw component that adds additional features to the existing application
+JAR:java archiry which is set of java classes,interface,enums and annotations zipped into .jar file
+these are provided by third party vendorsit to be added in class path additionally
+eg:
+spring framework
+jdbc type 4 driver
+
+web application:
+app progm that is stored in remote server and delivered over the internet through a browser based interface.
+components of web application:
+frontend:
+code execution is on the client side
+code usually comprises of HTML,CSS,JS code that runs on the user's browser and creates the user interface.
+backend:
+code execution is on the server side
+receives requests from the clients and contains the logic to send the appropriate data back to the client
+also include the database which will persistently store all data required for the application 
+
+service models:
+onpremise:
+everything is self managed
+iaas:
+infrastructure is rented and all hardware is cloud computedyou need to manage runtime,os,application and data
+billing depends on number of resources used. eg:amazon ec2,google compute engines
+paas:
+entire,hardware,os,runtime managed by cloud.you need to manage data and application
+you are billed for the number of features and runtime
+eg:aws elastic beanstalk,heroku
+saas:
+entire resources are cloud managed accessed using web browsers or mobile apps,billing is subscription based.eg:netflix,google apps,facebook
+deployment depends on location of infrastructure.
+different deployment models:
+public,private,hybrid,multicloud
+private cloud:
+is owned by single organization similar to on premise service model.entire cloud is located on onpremise data center and offers high control over security and confidentiality.
+public cloud:owned by public cloud providershardware infra is located in differnt parts of worldcloud services are shared by multiple customers.accese these by web console provided by cloud computing sw.
+hybrid:
+comb of private and cloud
+
+
+
